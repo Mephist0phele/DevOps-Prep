@@ -5,3 +5,6 @@ docker network create my-app-network
 docker run -d --name my-python-app --network my-app-network my-first-app:1.0 
 
 #docker run -d --name my-python-app-2 --network my-app-network my-first-app:1.0 
+
+#command to list all the newtwork available
+docker network ls
