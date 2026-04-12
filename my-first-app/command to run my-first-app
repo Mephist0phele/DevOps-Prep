@@ -1,0 +1,11 @@
+# 1. Rebuild the image with new code
+docker build -t my-first-app:1.0 .
+
+# 2. Run with port mapping
+docker run -d -p 5000:5000 --name my-web-app my-first-app:1.0
+
+# 3. Verify it's running
+docker ps
+
+# 4. View logs
+docker logs my-web-app
