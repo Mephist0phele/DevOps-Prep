@@ -1,0 +1,7 @@
+#command to create the network
+docker network create my-app-network
+
+#command to run the container on same network
+docker run -d --name my-python-app --network my-app-network my-first-app:1.0 
+
+#docker run -d --name my-python-app-2 --network my-app-network my-first-app:1.0 
