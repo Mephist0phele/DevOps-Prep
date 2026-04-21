@@ -1,0 +1,7 @@
+1. Create a Jenkins Project for Java and Docker (Java + Docker)
+
+
+2. Create a Jenkins Project for node and Docker (node + Docker)
+
+
+3. Create a Jenkins Project for dotnet and Docker (dotnet + Docker)
