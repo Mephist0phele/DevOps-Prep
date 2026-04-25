@@ -1,4 +1,4 @@
-1. Create a Jenkins Project for Java and Docker (Java + Docker)
+1. Create a Jenkins Project for Java and Docker (Java + Docker), use any cloud platform, and try to host the application on EC2 instance.
 
 
 2. Create a Jenkins Project for node and Docker (node + Docker)
